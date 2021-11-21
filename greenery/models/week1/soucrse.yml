@@ -15,32 +15,32 @@ sources:
       warn_after: {count: 24, period: hour}
       error_after: {count: 48, period: hour}
 
- tables:
-      - name: users 
-        loaded_at_field: created_at
-        description: >
-          Contains users information
-      - name: addresses  
-        loaded_at_field: created_at
-        description: >
-          Contains users' address     
-      - name: orders 
-        loaded_at_field: created_at
-        description: >
-          Contains users orders
-      - name: order_items  
-        loaded_at_field: created_at
-        description: >
-          Contains users order items  
-      - name: products 
-        loaded_at_field: created_at
-        description: >
-          Contains products details
-      - name: promos  
-        loaded_at_field: created_at
-        description: >
-          Contains information about all promotions         
-      - name: events 
-        loaded_at_field: created_at
-        description: >
-          Contains user tracking events   
+    tables:
+          - name: users 
+            loaded_at_field: created_at
+            description: >
+              Contains users information
+          - name: addresses  
+            loaded_at_field: created_at
+            description: >
+              Contains users' address     
+          - name: orders 
+            loaded_at_field: created_at
+            description: >
+              Contains users orders
+          - name: order_items  
+            loaded_at_field: created_at
+            description: >
+              Contains users order items  
+          - name: products 
+            loaded_at_field: created_at
+            description: >
+              Contains products details
+          - name: promos  
+            loaded_at_field: created_at
+            description: >
+              Contains information about all promotions         
+          - name: events 
+            loaded_at_field: created_at
+            description: >
+              Contains user tracking events   
